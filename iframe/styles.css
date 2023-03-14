@@ -1,0 +1,37 @@
+/* Stylize all the mini screens */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+	/*Positioning stuff*/
+	position: relative;
+	/*Typography stuff*/
+	font-family: 'Noto Sans', sans-serif;
+	color: #757575;
+	/*Miscellaneous*/
+	overflow: hidden;
+}
+
+#youLost {
+	/*Positioning stuff*/
+	position: static;
+	z-index: 10000;
+	/*Box model stuff*/
+	margin-top: 48%;
+	padding: 5%;
+	border-color: #757575;
+	border-style: solid;
+	background-color: #222222;
+	/*Typography stuff*/
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	color: #757575;
+}
+
+#greeting {
+	font-size: 5em;
+}
+
+#message {
+	/*Typography stuff*/
+	font-size: 1.5em;
+}

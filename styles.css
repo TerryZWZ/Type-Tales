@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+  /*Positioning stuff*/
+  position: relative;
+  /*Box model stuff*/
+  background-color: #4B5365;
+}
+
+.child {
+  position: absolute;
+  top: 0;
+}
+
+/* --- txtInput --- */
+.child1 {
+  margin-left: 20%;
+  margin-top: 42.1%;
+}
+
+/* --- canvas --- */
+.child2 {
+  margin-left: 20%;
+  margin-top: 8%;
+}
+
+/* --- myScore --- */
+.child3 {
+  margin-left: 20%;
+  margin-top: 5.55%;
+}
+
+/* --- myScore --- */
+.child4 {
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+/* --- Timer --- */
+.child5 {
+  margin-top: 6.55%;
+  margin-left: 75.5%;
+}
+
+/* --- box --- */
+.child6 {
+  margin-top: 10%;
+  margin-left: 55%;
+}
+
+/* --- startGame --- */
+.child7 {
+  margin-top: 35%;
+  margin-left: 55.5%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+#txtInput {
+  /*Positioning stuff*/
+  z-index: 100;
+  /*Box model stuff*/
+  width: 58%;
+  padding: 1%;
+  border-style: none;
+  background-color: #222222;
+  /*Typography stuff*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  color: white;
+}
+
+#myScore {
+  /*Positioning stuff*/
+  z-index: 1000;
+  /*Box model stuff*/
+  width: 59%;
+  padding-left: 1%;
+  padding-top: 1%;
+  background-color: #222222;
+  /*Typography stuff*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2em;
+  color: #757575;
+}
+
+#twoMinutes {
+  /*Positioning stuff*/
+  z-index: 1000;
+  /*Box model stuff*/
+  background-color: #222222;
+  /*Typography stuff*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  color: #757575;
+}
+
+canvas {
+  /*Positioning stuff*/
+  z-index: -100;
+  /*Box model stuff*/
+  width: 60%;
+  height: 85%;
+  background: #222222;
+  /*Miscellaneous*/
+  -webkit-box-shadow: 10px 10px 82px 23px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 10px 10px 82px 23px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 82px 23px rgba(0, 0, 0, 0.25);
+
+}
+
+#background {
+  /*Positioning stuff*/
+  position: relative;
+  /*Box model stuff*/
+  width: 25%;
+  margin-left: 15%;
+}
+
+#start {
+  /*Box model stuff*/
+  width: 200px;
+  height: 100px;
+  margin-left: 800px;
+  margin-top: 300px;
+  background-color: grey;
+}
+
+/* ----- Word Blocks ----- */
+.dawd {
+  /*Display stuff*/
+  display: inline-block;
+  /*Positioning stuff*/
+  top: 165px;
+  /*Box model stuff*/
+  margin: 3px;
+  margin-left: 200px;
+  padding: 25px;
+  border-color: white;
+  border-radius: 10px;
+  background-color: #A7967D;
+  /*Typography stuff*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 50px;
+}
+
+#box {
+  /*Positioning stuff*/
+  z-index: 10000;
+  /*Box model stuff*/
+  width: 23%;
+  height: 80%;
+}
+
+#startGame {
+  /*Positioning stuff*/
+  z-index: 10000;
+  /*Box model stuff*/
+  padding: 1%;
+  border-color: #757575;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #222222;
+  /*Typography stuff*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
+  color: #757575;
+}
+
+#cover {
+  /*Positioning stuff*/
+  z-index: 1000;
+  /*Box model stuff*/
+  width: 58%;
+  height: 3%;
+  padding: 1%;
+  border-style: none;
+  background-color: #222222;
+  /*Typography stuff*/
+  font-size: 20px;
+  color: white;
+  color: white;
+}
+
+/* --- Adjusting for Screen Resolution --- */
+@media (min-width: 144px) {
+  #container {
+    zoom: 7.50%;
+  }
+}
+
+@media (min-width: 240px) {
+  #container {
+    zoom: 12.50%;
+  }
+}
+
+@media (min-width: 480px) {
+  #container {
+    zoom: 16.67%;
+  }
+}
+
+@media (min-width: 640px) {
+  #container {
+    zoom: 33.33%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #container {
+    zoom: 66.67%;
+  }
+}
+
+@media (min-width: 1366px) {
+  #container {
+    zoom: 71.15%;
+  }
+}
+
+@media (min-width: 1600px) {
+  #container {
+    zoom: 83.33%;
+  }
+}
+
+@media (min-width: 1920px) {
+  #container {
+    zoom: 100%;
+  }
+}
+
+@media (min-width: 2560px) {
+  #container {
+    zoom: 133.33%;
+  }
+}
+
+@media (min-width: 3840px) {
+  #container {
+    zoom: 200%;
+  }
+}
